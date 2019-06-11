@@ -1,0 +1,20 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = youracctname
+	email = yourname@rocknrollrobots25@gmail.com
+
+[diff]
+	tool = tkdiff
+[difftool "tkdiff"]
+	path = C:/Program Files (x86)/TkDiff/tkdiff.exe  
+[difftool]
+	prompt = false
+
+
+[merge]
+	tool = tkdiff
+[mergetool "tkdiff"]
+	path = C:/Program Files (x86)/TkDiff/tkdiff.exe  
+[mergetool]
+	prompt = false
