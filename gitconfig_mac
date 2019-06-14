@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+# where youracctname is the account name you use to log into github
+# and email is the email you want to associate with your github account
+name = youracctname
+email = yourname@rocknrollrobots25.com
+
+[diff]
+  tool = tkdiff
+[difftool]
+  prompt = false
+[difftool "tkdiff"]
+  trustExitCode = true
+  cmd = "~/Downloads/tkdiff-4-3-5/tkdiff" \"$LOCAL\" \"$REMOTE\"
+[merge]
+  tool = tkdiff
+[mergetool]
+  prompt = false
+[mergetool "tkdiff"]
+  trustExitCode = true
+  cmd = "~/Downloads/tkdiff-4-3-5/tkdiff" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
