@@ -13,7 +13,7 @@
 # path using the instruction above.  Also change the path to the tkdiff
 # tool to the location to which you installed it on your machine.
 
-#export PATH=$PATH:/c/Users/REPLACE_WITH_YOUR_USER_NAME/Library/Android/sdk/"platform-tools":/c/Users/REPLACE_WITH_YOUR_USER_NAME/Downloads/"tkdiff-4-3-5"/"tkdiff-4-3-5"
+#export PATH=$PATH:/c/Users/REPLACE_WITH_YOUR_USER_NAME/Library/Android/sdk/"platform-tools":/c/Users/REPLACE_WITH_YOUR_USER_NAME/Downloads/"tkdiff-4-3-5"/"tkdiff-4-3-5":/c/"Program Files"/Java/jdk-12.0.1/bin
 
 alias gofirst="cd ~/Desktop/FIRST"
 alias srcalias="source ~/.bashrc"
